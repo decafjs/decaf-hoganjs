@@ -1,4 +1,5 @@
-decaf-hoganjs
-=============
+hogan.js
+========
 
-HoganJS module for decaf
+Twitter's fast mustache/handlebars template engine
+
