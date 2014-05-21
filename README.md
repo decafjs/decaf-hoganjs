@@ -49,7 +49,7 @@ var TemplateManager = require('decaf-hogan').TemplateManager,
 	templateManager = new TemplateManager('views');
 ```
 
-This creates an instance of TemplateManager that serves templates and partials from the relative path "views".  This is quite powerful as the following example demmonstrates:
+This creates an instance of TemplateManager that serves templates and partials from the relative path "views".  This is quite powerful as the following example demonstrates:
 
 ./views/pages/home.hbs:
 ```handlebars
