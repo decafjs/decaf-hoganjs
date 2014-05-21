@@ -6,7 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var Hogan = require('lib/hogan');
+var File = require('File'),
+	Hogan = require('lib/hogan');
 
 function TemplateManager( path ) {
 	var templates = {},
