@@ -15,7 +15,7 @@ $ bower install git://github.com/decafjs/decaf-hogan
 var Hogan = require('decaf-hogan').Hogan,
 	template = Hogan.compile('hello {{name}}');
 
-    console.log(template.render({ name: 'Hogan' }));
+console.log(template.render({ name: 'Hogan' }));
 ```
 
 Outputs:
@@ -32,7 +32,7 @@ var Hogan = require('decaf-hogan').Hogan,
 	partial = Hogan.compile('hello {{name}}'),
     template = '{{> arbitrary_partial_name }}';
 
-    console.log(template.render({ name: 'Hogan' }, { arbitrary_partial_name: parital }));
+console.log(template.render({ name: 'Hogan' }, { arbitrary_partial_name: parital }));
 ```
 
 Outputs:
@@ -73,7 +73,7 @@ The following program:
 var TemplateManager = require('decaf-hogan').TemplateManager,
 	templateManager = new TemplateManager('views');
 
-    templateManager['pages/home'].render({ title: 'example'}, templateManager);
+templateManager['pages/home'].render({ title: 'example'}, templateManager);
 ```
 
 outputs:
