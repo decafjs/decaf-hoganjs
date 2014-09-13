@@ -7,7 +7,7 @@
  */
 
 var File = require('File'),
-	Hogan = require('lib/hogan');
+    Hogan = require('hogan');
 
 function TemplateManager( path ) {
 	var templates = {},
