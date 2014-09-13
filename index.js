@@ -7,6 +7,6 @@
  */
 
 decaf.extend(exports, {
-    TemplateManager: require('lib/TemplateManager');
+    TemplateManager: require('lib/TemplateManager')
 });
 
