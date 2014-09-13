@@ -5,7 +5,7 @@
     "ignore" : [
     ],
     "dependencies" : {
-        "hogan" : "3.x"
+        "hogan" : "~3.x"
     },
     "devDependencies": {
     }
